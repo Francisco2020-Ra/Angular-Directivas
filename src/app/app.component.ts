@@ -12,6 +12,8 @@ export class AppComponent {
   nombre:string = "";
   apellido:string = "";  
 
+  cargo:string = "";
+
   entradas: Array<{titulo:string}>;
 
   constructor(){
